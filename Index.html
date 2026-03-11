@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EverBloom Events</title>
+<link rel="stylesheet" href="Style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="dark">
+<nav>
+
+<div class="logo">EverBloom</div>
+
+<div class="menu">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#booking">Booking</a>
+
+<button id="themeToggle">🌙</button>
+
+</div>
+</nav>
+<section id="home" class="hero">
+<div class="hero-text">
+<h1>Create Magical Moments</h1>
+<p>We design unforgettable weddings, parties and corporate events.</p>
+<a href="#booking" class="btn">Book Your Event</a>
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>Why Choose Us</h2>
+
+<div class="about-container">
+
+<div class="about-card">
+<div class="icon">💍</div>
+<h3>Wedding Planning</h3>
+<p>Perfectly planned dream weddings.</p>
+</div>
+
+<div class="about-card">
+<div class="icon">🎨</div>
+<h3>Creative Decoration</h3>
+<p>Beautiful themed decorations.</p>
+</div>
+
+<div class="about-card">
+<div class="icon">🍽</div>
+<h3>Catering</h3>
+<p>Delicious food and beverages.</p>
+</div>
+
+<div class="about-card">
+<div class="icon">🎉</div>
+<h3>Party Events</h3>
+<p>Birthdays, anniversaries and more.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="flex">
+
+<div class="card">
+<img src="https://img.staticmb.com/mbcontent/images/crop/uploads/2023/8/Heaven_4_0_1200.jpg.webp">
+<h3>Wedding Planning</h3>
+</div>
+
+<div class="card">
+<img src="https://cdn.togetherv.com/birthday-party-premium-decor-main_1655371005.webp">
+<h3>Birthday Party</h3>
+</div>
+
+<div class="card">
+<img src="https://cdn.shopify.com/s/files/1/0013/9542/5331/files/event-decoration-ideas-2.jpg?v=1551077450">
+<h3>Corporate Events</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div id="galleryCarousel" class="carousel slide container" data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="https://weddingsutra.com/images/wedding-images/blog-images/temple-decor/dheeraj-rohini-01.jpg" class="d-block w-100 gallery-img">
+</div>
+
+<div class="carousel-item">
+<img src="https://www.qceventplanning.com/blog/wp-content/uploads/2022/09/How-to-brand-your-event-planning-business-Feature-Image.jpg" class="d-block w-100 gallery-img">
+</div>
+
+<div class="carousel-item">
+<img src="https://www.manyavar.com/on/demandware.static/-/Library-Sites-ManyavarSharedLibrary/default/dw97dec76b/Blogs-Images/How%20to%20Use%20Lighting%20for%20Beautiful%20Sangeet%20Decor_D.jpg" class="d-block w-100 gallery-img">
+</div>
+
+<div class="carousel-item">
+<img src="https://cdn.balloondekor.com/43/1746262233855.webp" class="d-block w-100 gallery-img">
+</div>
+
+<div class="carousel-item">
+<img src="https://cdn0.weddingwire.in/article/3124/original/1280/jpg/44213-indian-decor-ideas-marigoldweddings-mandap.jpeg" class="d-block w-100 gallery-img">
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+
+</section>
+
+<section id="booking">
+<h2>Book Your Event</h2>
+<form onsubmit="return validateForm()">
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<select id="event">
+<option>Select Event Type</option>
+<option>Wedding</option>
+<option>Birthday</option>
+<option>Housewarming</option>
+<option>Family Gathering</option>
+<option>Corporate Event</option>
+</select>
+
+<input type="date">
+
+<textarea placeholder="Event Details"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 EverBloom Events</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
